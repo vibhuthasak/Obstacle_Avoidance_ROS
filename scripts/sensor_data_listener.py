@@ -41,15 +41,6 @@ def LaserScanProcess(data):
     else:
         LINX = 0.5
         angz = Kp*(-1)*(90 - turn_angle)
-    # LINX = 0.5
-    # global angz
-    # angz = Kp*(-1)*(90 - turn_angle)
-    # command = Twist()
-    # command.linear.x = LINX
-    # command.angular.z = angz
-    # pub.publish(command)
-    # rospy.spin()
-    # rate.sleep()
 
 def main():
     rospy.init_node('listener', anonymous=True)
