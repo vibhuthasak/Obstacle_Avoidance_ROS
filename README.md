@@ -13,8 +13,12 @@ Project in action : [Watch on youtube](https://www.youtube.com/watch?v=wcXuUG4BW
 
 **Everthing looking great so far right ?** 
 
-2. Now you need to run the python script that created to listen sensor data from our virtual robot.
+2. Now you need to run the python script that is created to listen sensor data from our virtual robot and move the robot.
+   
    ```rosrun testbot_description sensor_data_listerner.py```
+   
+
+### Python Script Explanation in brief:
    
    The python script is available at Obstacle_Avoidance_ROS/scripts/sensor_data_listener.py path.
    
