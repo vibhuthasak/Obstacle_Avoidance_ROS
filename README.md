@@ -1,6 +1,18 @@
 # Obstacle_Avoidance_ROS
 Project in action : [Watch on youtube](https://www.youtube.com/watch?v=wcXuUG4BWAU&t=9s)
 
+## Cloning the project
+   
+   Create a new directory in ```<catkin_workspace>/src/testbot_description``` and clone all of project files to that folder. 
+   
+   sample commands:
+   
+   1. ```mkdir ~/catkin_ws/src/testbot_description```
+   2. ```cd ~/catkin_ws/src/testbot_description```
+   3. ```git clone https://github.com/vibhuthasak/Obstacle_Avoidance_ROS.git```
+   4. ```cd ~/catkin_ws```
+   5. ```catkin_make```
+
 ## Step by Step ROS Command Explanation
 
 1. First you need to Launch the ROS node.
